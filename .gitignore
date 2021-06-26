@@ -1,0 +1,74 @@
+# dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Logs
+logs
+*.log
+*.log*
+*.log.*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+lerna-debug.log*
+
+# production
+.DS_Store
+public/
+build
+build/
+build/Release
+
+# testing
+/coverage
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Gatsby files
+.cache/
+
+# yarn 
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn-integrity
+.pnp.*
+
+
+#editor
+.vscode/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.*
+.env-cmdrc
+
+# misc cache
+npm
+.npm
+.cache/
+.changelog
+.eslintcache
+*.tsbuildinfo
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp
+.pnp.*
+
+
+
+
+
+

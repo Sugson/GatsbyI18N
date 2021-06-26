@@ -1,0 +1,80 @@
+{
+  "name": "9-au-tutor",
+  "description": "9AuTutor",
+  "version": "0.1.0",
+  "author": "tanawut.wattana@gmail.com",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "clsx": "^1.1.1",
+    "core-js": "^2.6.5",
+    "country-flag-icons": "^1.2.9",
+    "env-cmd": "^10.1.0",
+    "gatsby": "^2.1.24",
+    "gatsby-image": "^2.11.0",
+    "gatsby-link": "^2.0.9",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-manifest": "^3.1.0",
+    "gatsby-plugin-material-ui": "1.2.5",
+    "gatsby-plugin-offline": "^4.1.0",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-resolve-src": "^2.0.0",
+    "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-plugin-sharp": "^2.14.1",
+    "gatsby-source-filesystem": "^2.11.0",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "history": "^4.7.2",
+    "intl": "^1.2.5",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.2.0",
+    "react-intl": "^2.8.0",
+    "react-material-ui-carousel": "^2.2.2",
+    "react-router-dom": "^4.3.1",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.23.2",
+    "react-swipeable-views": "^0.13.1",
+    "typeface-roboto": "0.0.54",
+    "typeface-roboto-slab": "0.0.72"
+  },
+  "keywords": [
+    "i18n",
+    "gatsby",
+    "react",
+    "material-ui"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build-env": "env-cmd -e prod gatsby build",
+    "develop-env": "env-cmd -e dev gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "jest",
+    "coverage": "codecov"
+  },
+  "devDependencies": {
+    "codecov": "^3.0.0",
+    "jest": "^24.0.0",
+    "prettier": "^1.16.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.cache/"
+    ]
+  }
+}
